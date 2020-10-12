@@ -7,6 +7,18 @@ import java.util.HashMap;
  */
 public class BuildTree {
 
+    /**
+     * - 											---------------------------------                            -------------------------------------
+     * pleft                   pleft+1                    pindex-ileft+pleft      					 pindex-ileft+pleft+1           pright
+     *
+     * root left right
+     *
+     * ---------------------------------              -                 -------------------------------------
+     * ileft											      pindex-1       pindex            pindex+1                      			 iright
+     *
+     * left root right
+     */
+
     public class TreeNode {
         int val;
         TreeNode left;
